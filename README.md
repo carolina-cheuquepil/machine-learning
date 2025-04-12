@@ -1,61 +1,52 @@
-Descripción del Proyecto
+Evaluación Parcial 1 – Estadística Aplicada a Machine Learning
+Estudiante: Carolina Cheuquepil
 
-Este repositorio contiene el Análisis Exploratorio de Datos (EDA) del dataset IBM HR Analytics - Employee Attrition, con el objetivo de explorar los factores que influyen en la rotación de empleados.
+🎯 Objetivo del trabajo
+Realizar un análisis exploratorio de un dataset real de empleados, aplicando conceptos fundamentales de estadística descriptiva para identificar patrones, relaciones y posibles factores asociados a la rotación de personal (Attrition).
 
-Contenido del Repositorio
+📂 Descripción del dataset
+El dataset proviene de una empresa y contiene información relevante de más de 1.400 empleados. Cada fila representa a un trabajador, incluyendo variables como:
 
-📂 README.md → Documento explicativo sobre el proyecto.
+Edad, estado civil, horas extra, años en la empresa.
 
-📂 dataset/WA_Fn-UseC_-HR-Employee-Attrition.csv → Dataset utilizado en el análisis.
+Ingreso mensual, cargo, departamento.
 
-Análisis Realizado
+Indicador de si renunció o no a la empresa (Attrition).
 
-1️⃣ Identificación de Variables
+🧪 Contenido del análisis
+Identificación de variables: clasificación entre variables numéricas y categóricas.
 
-Categóricas: Attrition, BusinessTravel, Department, Gender, JobRole, MaritalStatus, OverTime, etc.
+Medidas de tendencia central y dispersión: media, mediana, desviación estándar, rango e IQR.
 
-Numéricas: Age, MonthlyIncome, YearsAtCompany, DistanceFromHome, JobSatisfaction, etc.
+Distribución de variables: detección de sesgo (asimetría) y análisis de forma de la distribución.
 
-2️⃣ Estadística Descriptiva
+Visualizaciones gráficas:
 
-Cálculo de media, mediana, moda, desviación estándar y rango intercuartil (IQR).
+Histogramas
 
-Análisis de asimetría (skewness) y curtosis.
+Boxplots
 
-3️⃣ Visualizaciones
+Tablas de frecuencia
 
-📊 Histogramas para analizar la distribución de variables.
+Gráficos de barras agrupadas
 
-📉 Boxplots para identificar valores atípicos.
+Identificación de valores atípicos (outliers) mediante boxplots.
 
-📋 Tablas de frecuencia para analizar variables categóricas.
+Exploración de factores asociados a la rotación del personal.
 
-4️⃣ Factores Asociados a la Rotación de Empleados
+Perfil de los empleados que tienden a quedarse o renunciar a la empresa.
 
-🔹 Factores numéricos clave:
+🧠 Conclusiones clave
+La rotación de personal se asocia con:
 
-Empleados con salarios bajos y menos años en la empresa tienen más probabilidad de renunciar.
+Edad más joven.
 
-La satisfacción laboral y el equilibrio trabajo-vida están relacionados con la permanencia.
+Sueldos bajos.
 
-🔹 Factores categóricos clave:
+Trabajo con horas extra.
 
-Horas extras: Un alto porcentaje de empleados que renuncian trabajan OverTime.
+Estado civil soltero.
 
-Estado civil: Los solteros renuncian más que los casados.
+La mayoría de los empleados se encuentra en un rango de edad entre 30 y 43 años.
 
-Departamento: Ventas tiene mayor porcentaje de renuncias.
-
-Resultados y Conclusiones
-
-✔️ El dataset muestra desigualdad en ingresos y antigüedad, con empleados que ganan significativamente menos y con menos años en la empresa.
-✔️ Los empleados que renuncian tienen menor satisfacción laboral en comparación con los que permanecen.
-✔️ Las horas extras y la falta de promociones están asociadas a una mayor rotación.
-✔️ La empresa está dominada por áreas técnicas y científicas, con más empleados en I+D.
-
-
-Carga el dataset y ejecuta las celdas del notebook.
-
-Autor
-
-📌 Nombre: [Tu Nombre]📌 Curso: Fundamentos de Machine Learning📌 Institución: Duoc UC
+El ingreso mensual presenta una distribución asimétrica, con valores atípicos altos.
